@@ -995,7 +995,7 @@ const languageChangeHandeler = () => {
       selectedImg.setAttribute("src", "./images/zh_HK.png");
       mainBox.innerHTML = chineseData;
     } else {
-      window.location.href = "http://127.0.0.1:5500/?lang=zh";
+      window.location.href = "/?lang=zh";
     }
   } else {
     selectedImg.setAttribute("src", "./images/en_US.png");
