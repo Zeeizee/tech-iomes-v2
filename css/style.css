@@ -1,0 +1,238 @@
+.services {
+  padding: 30px;
+}
+.references {
+  padding: 30px;
+  height: 80vh;
+}
+.references .reflist {
+  overflow: auto;
+  height: 85%;
+}
+.service-title {
+  width: 85%;
+  margin-bottom: -15px;
+  background: #006375;
+  border-radius: 5px;
+  z-index: 999;
+}
+.service-title span {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.service-content {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.services-list li {
+  list-style-type: none;
+}
+.mediabtn {
+  font-weight: 600;
+  color: #ababab;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.mediabtn:hover {
+  font-weight: 600;
+  color: #006375;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.refHeading .refTitle {
+  font-size: 2rem;
+}
+.socialIcons {
+  color: #ababab;
+  font-size: 2rem;
+}
+.socialIcons:hover {
+  color: #006375;
+}
+.pair {
+  width: 28px;
+  height: 28px;
+  background-color: rgb(171, 171, 171);
+  margin-top: 2px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.pair img {
+  width: 23px;
+  height: 21px;
+
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pair:hover {
+  background-color: #006375;
+}
+.infoText {
+  font-size: 0.9rem;
+  color: #808080;
+}
+.theWayText {
+  font-size: 1rem;
+}
+/* table start*/
+table {
+  margin: 0px;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0px 10px;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 0.35em;
+}
+
+table th,
+table td {
+  padding: 1em;
+  text-align: left;
+  font-weight: 500;
+}
+
+table td {
+  font-size: 1rem;
+}
+
+table th {
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: white;
+  background: #006375;
+}
+.getText {
+  font-size: 2rem;
+  color: gray;
+}
+.get-in-touch-cotact-form{
+  width:500px
+}
+
+@media screen and (max-width: 1009px) {
+  .infoText {
+    font-size: 0.9rem;
+  }
+  .getText {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 928px) {
+  .infoText {
+    font-size: 0.8rem;
+  }
+  .getText {
+    font-size: 1.6rem;
+  }
+  .theWayText {
+    font-size: 0.8rem;
+  }
+  .downText {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 846px) {
+  .infoText {
+    font-size: 0.7rem;
+  }
+  .downText {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  table td {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+  }
+
+  table td::before {
+    /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+/* table end*/
+@media screen and (max-width: 536px) {
+  .theWayText {
+    font-size: 0.7rem;
+  }
+  .downText {
+    font-size: 0.7rem;
+  }
+  .get-in-touch-cotact-form{
+    width:400px
+  }
+}
+@media screen and (max-width: 474px) {
+  .theWayText {
+    font-size: 0.6rem;
+  }
+  .downText {
+    font-size: 0.6rem;
+  }
+  .get-in-touch-cotact-form{
+    width:350px
+  }
+}
+@media screen and (max-width: 414px) {
+  .theWayText {
+    font-size: 0.5rem;
+  }
+  .downText {
+    font-size: 0.5rem;
+  }
+}
