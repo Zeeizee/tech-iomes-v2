@@ -609,7 +609,7 @@ const chineseData = `<!-- chinese -->
       <div class="text-center my-2 " style="width:340px;">
         <div class="service-title text-center mx-auto py-2 px-2 " onclick="openGetInTouch()" style="position: relative;z-index: 9999;cursor: pointer;" >
           <span class="text-white">
-          雅迈思TECH-IOMES 金属业 
+          雅迈思TECH-IOMES<br>金属业 
           </span>
         </div>            
         <div class="service-content px-2 py-3 ">              
@@ -636,7 +636,7 @@ const chineseData = `<!-- chinese -->
       <div class="text-center my-2 " style="width:340px; ">
         <div class="service-title text-center mx-auto py-2 px-2 " onclick="openGetInTouch()" style="position: relative;z-index: 9999;cursor: pointer;"  >
           <span class="text-white">
-          雅迈思 TECH-IOMES 水泥 
+          雅迈思 TECH-IOMES<br>水泥 
           </span>
         </div>
         <div class="service-content px-2 py-3 ">              
@@ -655,7 +655,7 @@ const chineseData = `<!-- chinese -->
       <div class="text-center my-2 " style="width:340px">
         <div class="service-title text-center mx-auto py-2 px-2 " onclick="openGetInTouch()" style="position: relative;z-index: 9999;cursor: pointer;"  >
           <span class="text-white">
-          雅迈思 TECH-IOMES 水务 
+          雅迈思 TECH-IOMES<br>水务 
           </span>
         </div>
         <div class="service-content px-2 py-3 ">              
@@ -678,7 +678,7 @@ const chineseData = `<!-- chinese -->
       <div class="text-center my-2 " style="width:340px">
         <div class="service-title text-center mx-auto py-2 px-2 " onclick="openGetInTouch()" style="position: relative;z-index: 9999;cursor: pointer;"  >
           <span class="text-white">
-          雅迈思 TECH-IOMES 工业资产维护
+          雅迈思 TECH-IOMES<br>工业资产维护
           </span>
         </div>
         <div class="service-content px-2 py-3 ">              
@@ -849,7 +849,7 @@ const chineseData = `<!-- chinese -->
           <ul style="list-style-type:none">
             <li><i style="color:#006375;font-size: 15px; margin:5px 5px 5px 0px " class="infoText fas fa-map-marker-alt"></i><span class="infoText"> 香港/上海</span> </li>
             <!-- <li><i style="color:#006375;font-size: 15px; margin:5px 5px 5px 0px " class="infoText fas fa-envelope"></i><span class="infoText">info@myindustrialoperations.com</span> </li> -->
-            <li><i style="color:#006375;font-size: 15px; margin:5px 5px 5px 0px " class="infoText fas fa-phone"></i><a href="tel:+85281932369" class="infoText">+852 8193 2369</a> </li>
+            <li><i style="color:#006375;font-size: 15px; margin:5px 5px 5px 0px " class="infoText fas fa-phone"></i><a href="tel:+85281932369" class="infoText">+852 8193 2369</a> / <a href="tel:+8618721914063" class="infoText">+86 187 21914063</a> </li>
            
           </ul>
         </div>
@@ -888,19 +888,19 @@ const chineseData = `<!-- chinese -->
             <div class="form-group">
               <label class="control-label " for="fname">填入您的姓名</label>
               <div class="">          
-              <input type="text" class="form-control username"  id="fname" placeholder="Enter Your Name" name="fname">
+              <input type="text" class="form-control username"  id="fname" placeholder="在此处输入您的姓名" name="fname">
               </div>
             </div>
             <div class="form-group">
               <label class="control-label" for="email">邮箱:</label>
               <div class="">
-              <input type="email" class="form-control useremail" id="email" placeholder="Enter email" name="email">
+              <input type="email" class="form-control useremail" id="email" placeholder="在这里输入您的电子邮件地址" name="email">
               </div>
             </div>
             <div class="form-group">
               <label class="control-label" for="comment">您的留言:</label>
               <div class="">
-              <textarea class="form-control usermsg" rows="5" id="comment" placeholder="Enter your message here"></textarea>
+              <textarea class="form-control usermsg" rows="5" id="comment" placeholder="在此处输入您的信息"></textarea>
               </div>
             </div>
             
@@ -921,8 +921,8 @@ const chineseData = `<!-- chinese -->
 
             <div class="form-group my-3">        
               <div class="text-center">
-              <button type="submit" class="btn btn-default" style="padding: 5px 20px; background-color:#006375; font-size: 0.9rem;color:white; border-radius: 10px; border:none;">Submit</button>
-              <button type="button" class="btn btn-default cancel" style="padding: 5px 20px; background-color:#006375; font-size: 0.9rem;color:white; border-radius: 10px; border:none;">Discard</button>
+              <button type="submit" class="btn btn-default" style="padding: 5px 20px; background-color:#006375; font-size: 0.9rem;color:white; border-radius: 10px; border:none;">提交</button>
+              <button type="button" class="btn btn-default cancel" style="padding: 5px 20px; background-color:#006375; font-size: 0.9rem;color:white; border-radius: 10px; border:none;">丢弃</button>
               </div>
             </div>
           </form>
@@ -985,6 +985,7 @@ const chineseData = `<!-- chinese -->
 
 const selectedImg = document.querySelector(".selected-img");
 const mainBox = document.querySelector(".mainBox");
+var isTrue="true"
 
 const languageChangeHandeler = () => {
   const queryString = window.location.search;
@@ -994,12 +995,14 @@ const languageChangeHandeler = () => {
     if (urlParams.get("lang") === "zh") {
       selectedImg.setAttribute("src", "./images/zh_HK.png");
       mainBox.innerHTML = chineseData;
+      isTrue=false
     } else {
       window.location.href = "/?lang=zh";
     }
   } else {
     selectedImg.setAttribute("src", "./images/en_US.png");
     mainBox.innerHTML = engData;
+    
   }
 };
 languageChangeHandeler();

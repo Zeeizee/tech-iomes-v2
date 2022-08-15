@@ -36,19 +36,19 @@ form.addEventListener('submit',(e)=>{
     e.preventDefault();
     
     if(txtusername.value.trim()===""){
-        alert("Please Fill All GetInTouch Input Fields")
+        isTrue?alert("Please Fill All GetInTouch Input Fields"):alert("请填写所有GetInTouch输入字段")
         return;
     }
     if(txtemail.value.trim()===""){
-        alert("Please Fill All GetInTouch Input Fields")
+        isTrue?alert("Please Fill All GetInTouch Input Fields"):alert("请填写所有GetInTouch输入字段")
         return;
     }
     if(!detailscheck.checked){
-        alert("Please check this agrement policy ")
+        isTrue?alert("Please check this agrement policy "):alert("请查看协议政策")
         return;
     }
     if(grecaptcha.getResponse().length===0){
-        alert("Please Fill recaptcha to confirm you are not robot")
+        isTrue?alert("Please Fill recaptcha to confirm you are not robot"):alert("请填写验证码以确认您不是机器人")
         return;
     }
    
@@ -95,7 +95,9 @@ const sendMail=()=>{
         emailjs.send('service_c9a1imi','template_6oryc6g',tempParams).then(res=>{        
             emailjs.send('service_c9a1imi','template_31g81l9',tempParams).then(resp=>{
                 loader.classList.add('d-none')
-                alert("Your message has been sent to IOMES Group. You will receive confirmation e-mail to your inbox. Stay in touch.")
+                isTrue?
+                alert("Your message has been sent to IOMES Group. You will receive confirmation e-mail to your inbox. Stay in touch."):
+                alert("您的信息已发送给雅迈思集团，您将收到雅迈思集团回复您的邮件。请保持联系。")
                 formcontainer.classList.add('d-none')
                 grecaptcha.reset()
                 form.reset();  
@@ -127,4 +129,3 @@ const sendMail=()=>{
 
           }
 
-     
