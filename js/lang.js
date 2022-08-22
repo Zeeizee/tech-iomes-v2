@@ -720,6 +720,7 @@ const chineseData = `<!-- chinese -->
         <table>
           <thead >
             <tr >
+              <th scope="col">#</th>
               <th scope="col">国家/地区</th>
               <th scope="col">解决方案</th>
               <th scope="col" colspan="2">范围和描述</th>                  
@@ -730,89 +731,103 @@ const chineseData = `<!-- chinese -->
             <!-- 2022 -->
 
             <tr>
-              <td data-label="国家/地区 ">中国（大陆）</td>
+              <td data-label="#">1</td>
+              <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案">TECH-IOMES M</td>
               <td data-label="范围和描述" colspan="2">热轧长材</td>                  
               <td data-label="状态">PoC</td>                  
             </tr>                
             <tr>
-              <td data-label="国家/地区">中国（大陆）</td>
+            <td data-label="#">2</td>
+              <td data-label="国家/地区">中国</td>
               <td data-label="解决方案">TECH-IOMES W</td>
               <td data-label="范围和描述" colspan="2">城市污水处理</td>                  
               <td data-label="状态">完成</td>                  
             </tr>  
                           <!-- 2021 -->
             <tr>
-              <td data-label="国家/地区 ">中国（大陆）</td>
+            <td data-label="#">3</td>
+              <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案">TECH-IOMES W</td>
               <td data-label="范围和描述" colspan="2">工业园区工业废水处理</td>                  
               <td data-label="状态">PoC</td>                  
             </tr>                
             <tr>
+            <td data-label="#">4</td>
               <td data-label="国家/地区   ">意大利</td>
               <td data-label="解决方案" >TECH-IOMES M</td>
               <td data-label="范围和描述" colspan="2">服务业务数字化</td> 
               <td data-label="状态">PoC</td>                  
             </tr>                
             <tr>
-              <td data-label="国家/地区 ">中国（大陆）</td>
+            <td data-label="#">5</td>
+              <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案" >TECH-IOMES M</td>
               <td data-label="范围和描述" colspan="2">生态系统应用程序APP上线</td> 
               <td data-label="状态">进展</td>                  
             </tr>                
             <tr>
-              <td data-label="国家/地区 ">中国（大陆）</td>
+            <td data-label="#">6</td>
+              <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案" >TECH-IOMES W</td>
               <td data-label="范围和描述" colspan="2">化工厂工业废水处理</td> 
               <td data-label="状态">PoC</td>                  
             </tr>
             <!--2020  -->  
             <tr>
-              <td data-label="国家/地区 ">中国（大陆）</td>
+            <td data-label="#">7</td>
+              <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案" >TECH-IOMES W</td>
               <td data-label="范围和描述" colspan="2">焦化厂工业废水处理</td> 
               <td data-label="状态">执行</td>                  
             </tr>  
             <tr>
-              <td data-label="国家/地区 ">中国（大陆）</td>
+            <td data-label="#">8</td>
+              <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案" >TECH-IOMES W</td>
               <td data-label="范围和描述" colspan="2">城市污水处理</td> 
               <td data-label="状态">完成</td>                  
             </tr>  
             <tr>
-              <td data-label="国家/地区 ">中国（大陆）</td>
+            <td data-label="#">9</td>
+              <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案" >TECH-IOMES W</td>
-              <td data-label="范围和描述" colspan="2">Industrial wastewater treatment for coal mining</td> 
+              <td data-label="范围和描述" colspan="2">煤矿开采工业废水处理</td> 
               <td data-label="状态">完成</td>                  
             </tr>  
             <tr>
-              <td data-label="国家/地区 ">中国（大陆）</td>
+            <td data-label="#">10</td>
+              <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案" >TECH-IOMES W</td>
               <td data-label="范围和描述" colspan="2">焦化厂工业废水处理</td> 
               <td data-label="状态">完成</td>                  
             </tr>  
             <tr>
+            <td data-label="#">11</td>
               <td data-label="国家/地区 ">越南</td>
               <td data-label="解决方案" >TECH-IOMES M</td>
-              <td data-label="范围和描述" colspan="2">Flat rolling cold steel</td> 
+              <td data-label="范围和描述" colspan="2">平轧冷钢</td> 
               <td data-label="状态">完成</td>                  
             </tr>  
              
             <!-- 2019 -->
             <tr>
+            <td data-label="#">12</td>
               <td data-label="国家/地区 ">巴基斯坦</td>
               <td data-label="解决方案" >TECH-IOMES M</td>
               <td data-label="范围和描述" colspan="2">热轧长材</td> 
               <td data-label="状态">完成</td>                  
             </tr>
             <tr>
-              <td data-label="国家/地区 ">中国（大陆）</td>
+            <td data-label="#">13</td>
+              <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案" >TECH-IOMES M</td>
               <td data-label="范围和描述" colspan="2">热轧长材</td> 
               <td data-label="状态">完成</td>                  
             </tr>
             <tr>
-              <td data-label="国家/地区 ">中国（大陆）</td>
+            <td data-label="#">14</td>
+              <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案" >TECH-IOMES W</td>
               <td data-label="范围和描述" colspan="2">焦化厂工业废水处理</td> 
               <td data-label="状态">完成</td>                  
@@ -847,9 +862,9 @@ const chineseData = `<!-- chinese -->
           </div>
           
           <ul style="list-style-type:none">
-            <li><i style="color:#006375;font-size: 15px; margin:5px 5px 5px 0px " class="infoText fas fa-map-marker-alt"></i><span class="infoText"> 香港/上海</span> </li>
+            <li><i style="color:#006375;font-size: 15px; margin:5px 5px 5px 0px " class="infoText fas fa-map-marker-alt"></i><span class="infoText"> 上海/香港</span> </li>
             <!-- <li><i style="color:#006375;font-size: 15px; margin:5px 5px 5px 0px " class="infoText fas fa-envelope"></i><span class="infoText">info@myindustrialoperations.com</span> </li> -->
-            <li><i style="color:#006375;font-size: 15px; margin:5px 5px 5px 0px " class="infoText fas fa-phone"></i><a href="tel:+85281932369" class="infoText">+852 8193 2369</a> / <a href="tel:+8618721914063" class="infoText">+86 187 21914063</a> </li>
+            <li><i style="color:#006375;font-size: 15px; margin:5px 5px 5px 0px " class="infoText fas fa-phone"></i><a href="tel:+8618721914063" class="infoText">+86 187 21914063</a>/<a href="tel:+85281932369" class="infoText">+852 8193 2369</a></li>
            
           </ul>
         </div>
