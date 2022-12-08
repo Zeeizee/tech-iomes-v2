@@ -196,11 +196,36 @@ const engData = `
 
             <tr>
               <td data-label="COUNTRY">P.R. China</td>
+              <td data-label="SOLUTION">TECH-IOMES W</td>
+              <td data-label="SCOPE AND DESCRIPTION" colspan="2">Municipal sewage water plant</td>                  
+              <td data-label="STATUS">PoC</td>                  
+            </tr>   
+                         
+            <tr>
+              <td data-label="COUNTRY">Italy</td>
+              <td data-label="SOLUTION">TECH-IOMES M</td>
+              <td data-label="SCOPE AND DESCRIPTION" colspan="2">ERW pipes plant</td>                  
+              <td data-label="STATUS">PoC</td>                  
+            </tr>                
+          <tr>
+              <td data-label="COUNTRY">P.R. China</td>
+              <td data-label="SOLUTION">TECH-IOMES W</td>
+              <td data-label="SCOPE AND DESCRIPTION" colspan="2">Power plant water conditioning</td>                  
+              <td data-label="STATUS">PoC</td>                  
+            </tr>                
+           <tr>
+              <td data-label="COUNTRY">P.R. China</td>
+              <td data-label="SOLUTION">TECH-IOMES A</td>
+              <td data-label="SCOPE AND DESCRIPTION" colspan="2">Renewable technologies fabrication plant</td>                  
+              <td data-label="STATUS">PoC</td>                  
+            </tr>                
+            <tr>
+              <td data-label="COUNTRY">P.R. China</td>
               <td data-label="SOLUTION">TECH-IOMES M</td>
               <td data-label="SCOPE AND DESCRIPTION" colspan="2">Long rolling hot steel</td>                  
               <td data-label="STATUS">PoC</td>                  
             </tr>                
-            <tr>
+           <tr>
               <td data-label="COUNTRY">P.R. China</td>
               <td data-label="SOLUTION">TECH-IOMES W</td>
               <td data-label="SCOPE AND DESCRIPTION" colspan="2">Municipal wastewater treatment for sewage water</td>                  
@@ -305,26 +330,42 @@ const engData = `
 
         <div class="row mx-0 px-0 py-1 w-100 d-flex justify-content-around less" >
           <!-- 1 -->
+          
           <div style="height: 550px;"  class="col-12 col-md-5  my-3">
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6923091900350566400"style="width:100%;height: 100%; border:1px solid rgb(226, 226, 226);border-radius: 10px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7003528928933920768"style="width:100%;height: 100%; border:1px solid rgb(226, 226, 226);border-radius: 10px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
           </div>
           <div style="height: 550px;"  class="col-12 col-md-5  my-3">
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6913040209584545792"style="width:100%;height: 100%; border:1px solid rgb(226, 226, 226);border-radius: 10px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7003212953550299136"style="width:100%;height: 100%; border:1px solid rgb(226, 226, 226);border-radius: 10px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
           </div>
-          <!-- 2 -->
           <div style="height: 550px;"  class="col-12 col-md-5  my-3">
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6911963840582737920"style="width:100%;height: 100%; border:1px solid rgb(226, 226, 226);border-radius: 10px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6959680109473652736"style="width:100%;height: 100%; border:1px solid rgb(226, 226, 226);border-radius: 10px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
           </div>
-          <!-- 3 -->
           <div style="height: 550px;"  class="col-12 col-md-5  my-3">
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6889831955656003584"style="width:100%;height: 100%; border:1px solid rgb(226, 226, 226);border-radius: 10px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6943036378435764224"style="width:100%;height: 100%; border:1px solid rgb(226, 226, 226);border-radius: 10px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
           </div>
+          
+          
                              
         </div>
 
 
         <div class="row mx-0 px-0 py-1 w-100 d-flex justify-content-around more d-none" >
           <!-- 1 -->
+          <div style="height: 550px;"  class="col-12 col-md-5  my-3">
+          <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7003528928933920768"style="width:100%;height: 100%; border:1px solid rgb(226, 226, 226);border-radius: 10px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        </div>
+        <div style="height: 550px;"  class="col-12 col-md-5  my-3">
+          <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7003212953550299136"style="width:100%;height: 100%; border:1px solid rgb(226, 226, 226);border-radius: 10px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        </div>
+        <div style="height: 550px;"  class="col-12 col-md-5  my-3">
+          <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6959680109473652736"style="width:100%;height: 100%; border:1px solid rgb(226, 226, 226);border-radius: 10px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        </div>
+        <div style="height: 550px;"  class="col-12 col-md-5  my-3">
+          <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6943036378435764224"style="width:100%;height: 100%; border:1px solid rgb(226, 226, 226);border-radius: 10px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        </div>
+        <div style="height: 550px;"  class="col-12 col-md-5  my-3">
+          <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6939123515518312448"style="width:100%;height: 100%; border:1px solid rgb(226, 226, 226);border-radius: 10px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        </div>
           <div style="height: 550px;"  class="col-12 col-md-5  my-3">
             <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6923091900350566400"style="width:100%;height: 100%; border:1px solid rgb(226, 226, 226);border-radius: 10px;" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
           </div>
@@ -550,6 +591,7 @@ const engData = `
 </div>
 
 `;
+let count=0;
 const chineseData = `<!-- chinese -->
 <div class="chinese-lang">
   <header class="header-area ">
@@ -729,16 +771,50 @@ const chineseData = `<!-- chinese -->
           </thead>
           <tbody >
             <!-- 2022 -->
-
+            
             <tr>
               <td data-label="#">1</td>
+              <td data-label="国家/地区 ">中国</td>
+              <td data-label="解决方案">TECH-IOMES W</td>
+              <td data-label="范围和描述" colspan="2">城市污水处理</td>                  
+              <td data-label="状态">进展</td>                  
+            </tr> 
+            
+            <tr>
+              <td data-label="#">2</td>
+              <td data-label="国家/地区 ">意大利</td>
+              <td data-label="解决方案">TECH-IOMES M</td>
+              <td data-label="范围和描述" colspan="2">电阻焊管厂</td>                  
+              <td data-label="状态">进展</td>                  
+            </tr> 
+            
+            <tr>
+              <td data-label="#">3</td>
+              <td data-label="国家/地区 ">中国</td>
+              <td data-label="解决方案">TECH-IOMES W</td>
+              <td data-label="范围和描述" colspan="2">电厂水的调节</td>                  
+              <td data-label="状态">进展</td>                  
+            </tr> 
+            
+            <tr>
+              <td data-label="#">4</td>
+              <td data-label="国家/地区 ">中国</td>
+              <td data-label="解决方案">TECH-IOMES A</td>
+              <td data-label="范围和描述" colspan="2">可再生技术制造厂</td>                  
+              <td data-label="状态">进展</td>                  
+            </tr> 
+            
+
+
+            <tr>
+              <td data-label="#">5</td>
               <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案">TECH-IOMES M</td>
               <td data-label="范围和描述" colspan="2">热轧长材</td>                  
               <td data-label="状态">PoC</td>                  
             </tr>                
             <tr>
-            <td data-label="#">2</td>
+            <td data-label="#">6</td>
               <td data-label="国家/地区">中国</td>
               <td data-label="解决方案">TECH-IOMES W</td>
               <td data-label="范围和描述" colspan="2">城市污水处理</td>                  
@@ -746,28 +822,28 @@ const chineseData = `<!-- chinese -->
             </tr>  
                           <!-- 2021 -->
             <tr>
-            <td data-label="#">3</td>
+            <td data-label="#">7</td>
               <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案">TECH-IOMES W</td>
               <td data-label="范围和描述" colspan="2">工业园区工业废水处理</td>                  
               <td data-label="状态">PoC</td>                  
             </tr>                
             <tr>
-            <td data-label="#">4</td>
+            <td data-label="#">8</td>
               <td data-label="国家/地区   ">意大利</td>
               <td data-label="解决方案" >TECH-IOMES M</td>
               <td data-label="范围和描述" colspan="2">服务业务数字化</td> 
               <td data-label="状态">PoC</td>                  
             </tr>                
             <tr>
-            <td data-label="#">5</td>
+            <td data-label="#">9</td>
               <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案" >TECH-IOMES M</td>
               <td data-label="范围和描述" colspan="2">生态系统应用程序APP上线</td> 
               <td data-label="状态">进展</td>                  
             </tr>                
             <tr>
-            <td data-label="#">6</td>
+            <td data-label="#">10</td>
               <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案" >TECH-IOMES W</td>
               <td data-label="范围和描述" colspan="2">化工厂工业废水处理</td> 
@@ -775,35 +851,35 @@ const chineseData = `<!-- chinese -->
             </tr>
             <!--2020  -->  
             <tr>
-            <td data-label="#">7</td>
+            <td data-label="#">11</td>
               <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案" >TECH-IOMES W</td>
               <td data-label="范围和描述" colspan="2">焦化厂工业废水处理</td> 
               <td data-label="状态">执行</td>                  
             </tr>  
             <tr>
-            <td data-label="#">8</td>
+            <td data-label="#">12</td>
               <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案" >TECH-IOMES W</td>
               <td data-label="范围和描述" colspan="2">城市污水处理</td> 
               <td data-label="状态">完成</td>                  
             </tr>  
             <tr>
-            <td data-label="#">9</td>
+            <td data-label="#">13</td>
               <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案" >TECH-IOMES W</td>
               <td data-label="范围和描述" colspan="2">煤矿开采工业废水处理</td> 
               <td data-label="状态">完成</td>                  
             </tr>  
             <tr>
-            <td data-label="#">10</td>
+            <td data-label="#">14</td>
               <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案" >TECH-IOMES W</td>
               <td data-label="范围和描述" colspan="2">焦化厂工业废水处理</td> 
               <td data-label="状态">完成</td>                  
             </tr>  
             <tr>
-            <td data-label="#">11</td>
+            <td data-label="#">15</td>
               <td data-label="国家/地区 ">越南</td>
               <td data-label="解决方案" >TECH-IOMES M</td>
               <td data-label="范围和描述" colspan="2">平轧冷钢</td> 
@@ -812,21 +888,21 @@ const chineseData = `<!-- chinese -->
              
             <!-- 2019 -->
             <tr>
-            <td data-label="#">12</td>
+            <td data-label="#">16</td>
               <td data-label="国家/地区 ">巴基斯坦</td>
               <td data-label="解决方案" >TECH-IOMES M</td>
               <td data-label="范围和描述" colspan="2">热轧长材</td> 
               <td data-label="状态">完成</td>                  
             </tr>
             <tr>
-            <td data-label="#">13</td>
+            <td data-label="#">17</td>
               <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案" >TECH-IOMES M</td>
               <td data-label="范围和描述" colspan="2">热轧长材</td> 
               <td data-label="状态">完成</td>                  
             </tr>
             <tr>
-            <td data-label="#">14</td>
+            <td data-label="#">18</td>
               <td data-label="国家/地区 ">中国</td>
               <td data-label="解决方案" >TECH-IOMES W</td>
               <td data-label="范围和描述" colspan="2">焦化厂工业废水处理</td> 
